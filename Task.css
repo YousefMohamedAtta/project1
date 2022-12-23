@@ -1,0 +1,279 @@
+
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    overflow-x  : hidden;
+}
+/*start header*/
+.section1  .background img {
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
+.section1 .right{
+    margin: 40px;
+    position: absolute;
+    display: flex;
+    justify-content:start ;
+}
+.right .img{
+    position: absolute;
+    padding: 50px;
+}
+.section1 .left{
+    display: flex;
+    justify-content:end;
+    padding-right:60px;
+    padding-top: 40px;  
+}
+.left input{
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 50px;
+    background-color: white;
+    border: none;
+}
+ul  :hover {   
+    position: relative;
+    display: flex;
+    list-style: none;
+    border: none; 
+    color: blueviolet;
+    text-decoration: underline 4px ;
+}
+ul a{
+    text-decoration: none;
+    color:black;
+}
+ul img{
+    margin-top: -10px;
+}
+ul .TOP{
+    position: relative;
+    top: -160px;
+    padding: 20px;   
+}
+ul  {
+    position: relative;
+    display: flex;
+    margin: 50px;
+    margin-left: -90px;
+    list-style: none;
+    top: 100px;
+    left: 100px;
+}
+.section2{
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin-top: 30px;
+}
+.section2 .asd{
+    position: relative;
+    bottom: 50px;
+    top: -65px;
+    justify-content: center;
+    align-items: center;    
+}
+.section2 .asd .img1{
+    position: absolute;
+    z-index: -1;
+    top: -20px;
+   left: -150px;
+}
+.section2 .asd .img2 {
+    position: absolute;
+    top: 20px;
+    left: -60px; 
+}
+.section2 .asd .img3{
+    position: absolute;
+    top: 350px;
+    left: -50px;
+    opacity: 0.95;
+}
+.img4{
+    position: absolute;
+    left: -350px;
+    top: 470px;
+    
+}
+.H-P{
+   position: relative;
+   top: 50px;
+   right: 250px;
+}
+.H-P h1{
+    font-size: 60px;
+}
+.H-P p {
+    font-size: 30px;
+}
+/*end header*/
+/*start body*/
+.A3{
+    display: flex;
+    position: relative;
+}
+.A3 .Superfast {
+    position: absolute;
+    top: 500px;
+    left: 30px;
+    z-index: 1;
+    text-align: center;
+}
+.A3 .secondsection{
+    position: relative;
+    top: 390px;
+    left: 180px;
+    z-index: -1;
+}
+.A3 .realtime {
+    position: absolute;
+    top: -60px;
+    left: 600px;
+    z-index: 1;
+    text-align: center;
+}
+.A3 .discounts {
+    position: absolute;
+    top: 360px;
+    right:150px;
+    z-index: -1;
+    text-align: center;
+}
+.A3 .kudzoka {
+    display: flex;
+}
+.A3 .kudzoka .a5{
+    position: relative;
+    top: 300px;
+    left: 100px;
+}
+.A3 .kudzoka .a5 img{
+    position: absolute;
+    z-index: -1;  
+}
+.A3 .kudzoka .a5 p {
+    position: absolute;
+    top: 110px;
+    left: 68px;
+    color: white;
+    width: 20px;
+}
+.A3 .kudzoka .a5 h2 {
+    position: absolute;
+    top: 130px;
+    left: 66px;
+    color: white;
+}
+.section3 {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 600px;
+    left: 20px;
+    text-align: center;
+    padding: 100px;
+}
+.section3 .img1{
+    position: absolute;
+    top: 180px;
+    left: 60px;
+    padding: 50px;
+}
+.section3 .img3{
+    position: absolute;
+    top: 180px;
+    right: 60px;
+    padding: 50px;
+}
+/*end body*/
+/*start footer*/
+.footer1 .background img{
+    position: relative;
+    padding-bottom: 200px;
+    width: 100%;
+    height: 800px;
+    z-index: -1;
+    overflow: hidden;
+    bottom: -450px;
+}
+.picture img {
+    position: absolute;
+    right: 150px;
+    bottom: -2162px;
+    z-index: -1;
+}
+ .app {
+    display: flex;
+    padding: 20px;
+    margin: 20px; 
+ }
+ .apple {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    padding: 10px;
+    background-color: white;
+    top: -50px;
+    margin: 50px;
+    border-radius: 10px;
+ }
+ .apple img{
+    height: 30px;
+    padding-right: 10px;
+ }
+ .android {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    padding: 10px;
+    background-color: white;
+    top: -50px;
+    margin: 50px;
+    margin-left:-20px;
+    border-radius: 10px;
+ }
+ .android img{
+    height: 30px;
+ }
+ .icon {
+    position: relative;
+    right: -80px;
+    top: -120px;
+ }
+ .icon img{
+    padding: 10px;
+ }
+ .last { 
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+ }
+ .ss {
+    position: relative;
+    display: flex;
+    margin: 50px;
+    margin-left: -90px;
+    list-style: none;
+    top: -150px;
+    left: 120px;
+}
+ul .ssss{
+    padding-left:60px ;
+}
